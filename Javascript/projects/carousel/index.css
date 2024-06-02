@@ -1,0 +1,29 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+     background-color: #0f0f0f; 
+} */
+
+.carousel {
+    border: 1px solid;
+    max-width: 800px;
+    overflow: hidden;
+}
+
+.carousel_track {
+    width: 600px;
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel_slide {
+    min-width: 100%;
+}
+
+.carousel_img {
+    width: 100%;
+    display: block;
+}
